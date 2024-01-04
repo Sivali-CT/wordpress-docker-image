@@ -22,3 +22,9 @@ mysql> create database wordpress;
 Now open `http://localhost:8080/wp-admin/install.php` in your browser.
 
 ![wordpress and mysql in docker container](https://res.cloudinary.com/andinianst93/image/upload/v1704281437/kjigd9dpxsp5gopya73q.png)
+
+Don't forget to:
+```bash
+docker compose down
+```
+after you finish.
